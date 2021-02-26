@@ -5,8 +5,11 @@
 }
 
 .page {
+    box-sizing: border-box;
     max-width: 1920px;
     margin: 0 auto;
+	font-family: 'Myriad Pro';
+    color: #000;
 }
 
 .navigation {
@@ -20,19 +23,252 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+	font-style: normal;
 }
 
 .nav__list {
+    width: 1195px;
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
 }
 
 .nav__link {
     text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+	font-style: normal;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
 }
 
 .contacts__description {
     margin: 0;
+    align-self: flex-end;
+}
+
+.contacts__img {
+    align-self: center;
+}
+
+.contacts__img_type_email {
+    width: 22px;
+    height: 15px;
+    background-image: url(./images/email.png);
+    background-position: center;
+}
+
+.contacts__img_type_telephone {
+    width: 16px;
+    height: 20px;
+    background-image: url(./images/telephone.png);
+    background-position: center;
+}
+
+.search {
+    background-color: #e8e7e7;
+}
+
+.search__container {
+    width: 1547px;
+    min-height: 64px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__part {
+    width: 1195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 7px;
+    text-decoration: none;
+}
+
+.logo__img {
+    width: 40px;
+    height: 40px;
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo__text {
+    align-self: flex-end;
+    font-size: 33px;
+    line-height: 0.9;
+    color: #000;
+    text-decoration: none;
+    margin: 0;
+}
+
+.form {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+}
+
+.form__all {
+    box-sizing: border-box;
+    width: 65px;
+    height: 35px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #777777;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    padding: 0 6px 0 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    &::after {
+        display: block;
+        content: "";
+        background-color: #393939;
+        width: 10px;
+        height: 6px;
+        position: absolute;
+        top: 15px;
+        right: 7px;
+        clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    }
+}
+
+.form__input {
+    box-sizing: border-box;
+    width: 770px;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+.form__search {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 49px;
+    height: 35px;
+    border: none;
+    background-color: #ffaf2d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-image: url(./images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.supplier {
+    max-width: 140px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    font-size: 14px;
+    color: #777777;
+}
+
+.supplier__img {
+    width: 35px;
+    height: 35px;
+    background-image: url(./images/portalpostavschikov.png);
+    background-size: 100% 100%;
+}
+
+.supplier__text {
+    margin: 0;
+    align-self: end;
+}
+
+.basket {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.basket__img {
+    width: 29px;
+    height: 27px;
+    background-image: url(./images/online-shopping-cart.png);
+    background-size: 100% 100%;
+    align-self: center;
+}
+
+.basket__product-quantity {
+    font-size: 14;
+    margin: 0;
+    color: #ff8c00;
+    position: relative;
+    bottom: 12px;
+    left: 8px;
+}
+
+.basket__sum {
+    margin: 0;
+    font-size: 14px;
+    color: #777777;
+}
+
+.basket__number {
+    margin: 0;
+    font-size: 16px;
+}
+
+.equipments {
+    background-color: #fff;
+    box-shadow: 0 5px 15px #e0dddd;
+}
+
+.equipments__container {
+    width: 1547px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.equipment__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.equipment__img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
+
+.equipment__name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+	font-style: normal;
+    color: #343434;
+    padding-top: 8px;
 }

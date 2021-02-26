@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Cтоловая.РУ</title>
 </head>
 <body class="root">
@@ -26,17 +27,113 @@
                         </ul>
                     </nav>
                     <div class="contacts">
-                        <div class="contacts__img"></div>
+                        <div class="contacts__img contacts__img_type_email"></div>
                         <p class="contacts__description">info@stolovay.ru</p>
                     </div>
                     <div class="contacts">
-                        <div class="contacts__img"></div>
+                        <div class="contacts__img contacts__img_type_telephone"></div>
                         <p class="contacts__description">8 495 790-72-05</p>
                     </div>
                 </div>
             </section>
-            <section class="search"></section>
-            <section class="equipment"></section>
+            <section class="search">
+                <div class="search__container">
+                    <div class="search__part">
+                        <a class="logo" href="#">
+                            <div class="logo__img"></div>
+                            <p class="logo__text">Столовая.РУ</p>
+                        </a>
+                        <form action="" class="form" method="GET">
+                            <button type="button" class="form__all">Все</button>
+                            <input type="text" name="search" class="form__input">
+                            <button type="submit" class="form__search"></button>
+                        </form>    
+                    </div>
+                    <div class="supplier">
+                        <div class="supplier__img"></div>
+                        <p class="supplier__text">Мы на портале поставщиков</p>
+                    </div>
+                    <div class="basket">
+                        <div class="basket__img">
+                            <p class="basket__product-quantity">12</p>
+                        </div>
+                        <div class="basket__text">
+                            <p class="basket__sum">Сумма</p>
+                            <p class="basket__number">150 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="equipments">
+                <ul class="equipments__container">
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment1.png" alt="Тепловое" class="equipment__img">
+                            <p class="equipment__name">Тепловое</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment2.png" alt="Холодильное" class="equipment__img">
+                            <p class="equipment__name">Холодильное</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment3.png" alt="Электромеханическое" class="equipment__img">
+                            <p class="equipment__name">Электромеханическое</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment4.png" alt="Посудомоечное" class="equipment__img">
+                            <p class="equipment__name">Посудомоечное</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment5.png" alt="Хлебопекарное" class="equipment__img">
+                            <p class="equipment__name">Хлебопекарное</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment6.png" alt="Линии раздачи" class="equipment__img">
+                            <p class="equipment__name">Линии раздачи</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment7.png" alt="Нейтральное" class="equipment__img">
+                            <p class="equipment__name">Нейтральное</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment8.png" alt="Для фаст фуда" class="equipment__img">
+                            <p class="equipment__name">Для фаст фуда</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment9.png" alt="Для залов" class="equipment__img">
+                            <p class="equipment__name">Для залов</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment10.png" alt="Вспомогательное" class="equipment__img">
+                            <p class="equipment__name">Вспомогательное</p>
+                        </a>
+                    </li>
+                    <li class="equipment">
+                        <a href="#" class="equipment__link">
+                            <img src="./images/equipment/equipment11.png" alt="Для магазинов" class="equipment__img">
+                            <p class="equipment__name">Для магазинов</p>
+                        </a>
+                    </li>    
+                </ul>
+            </section>
         </header>
         <main class="main"></main>
         <footer class="footer"></footer>
