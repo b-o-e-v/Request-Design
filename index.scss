@@ -199,12 +199,13 @@
     align-self: end;
 }
 
-.basket {
+.basket-link {
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
     position: relative;
     top: 5px;
+    text-decoration: none;
 }
 
 .basket__img {
@@ -233,6 +234,7 @@
 .basket__number {
     margin: 0;
     font-size: 16px;
+    color: #000;
 }
 
 .equipments {
@@ -271,4 +273,226 @@
 	font-style: normal;
     color: #343434;
     padding-top: 8px;
+}
+
+.description {
+    width: 1540px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+}
+
+.description__offers {
+    background-color: #fff;
+}
+
+.description__title {
+    font-size: 24px;
+    color: #ffaf2d;
+    font-weight: 300;
+	font-style: normal;
+    margin: 33px 0 18px 27px;
+}
+
+.description__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.description__link {
+    display: block;
+    padding: 11.5px 20px 11.5px 27px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+	font-style: normal;
+    &::after {
+        content: ">";
+        color: #cdcdcd;
+        float: right;
+    }
+}
+
+.swiper {
+    position: relative;
+}
+
+.slides {
+    list-style-type: none;
+    position: relative;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.showing {
+    transition: 1s;
+    z-index: 1;
+}
+
+.slide-one {
+    height: 100%;
+    background-color: #00aa4b;
+}
+
+.slide-two {
+    box-sizing: border-box;
+    height: 100%;
+    background-image: url(./images/swiper.jpg);
+    padding: 59px 67px;
+}
+
+.slide-two__paragraph {
+    margin: 0 0 72px;
+    color: #777;
+    font-size: 16px;
+}
+
+.slide-two__title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: normal;
+	font-style: normal;
+    color: #f3f1f1;
+}
+
+.slide-two__subtitle {
+    margin: 23px 0 0;
+    font-size: 18px;
+    font-weight: normal;
+	font-style: normal;
+    color: #f3f1f1;
+}
+
+.slide-two__link {
+    display: block;
+    width: 130px;
+    padding: 8.5px 0;
+    margin: 62px 0 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #ffaf2d;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.slide-three {
+    height: 100%;
+    background-color: #ffaf2d;
+}
+
+.slide-four {
+    height: 100%;
+    background-color: #777;
+}
+
+.swiper__nav {
+    width: 80px;
+    position: absolute;
+    left: 410px;
+    bottom: 30px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper__btn {
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.swiper__btn_on {
+    background-color: #fff;
+    border: none;
+}
+
+.sale {
+    padding: 323px 30px 0;
+    background-image: url(./images/sale.jpg);
+    box-sizing: border-box;
+    border: 2px solid #ffaf2d;
+}
+
+.sale__paragraph {
+    margin: 0;
+    font-size: 18px;
+    color: #121212;
+    font-weight: normal;
+	font-style: normal;
+}
+
+.sale__title {
+    margin: 0;
+    font-size: 40px;
+    color: #121212;
+    font-weight: 300;
+	font-style: normal;
+}
+
+.sale__link {
+    display: block;
+    text-decoration: none;
+    color: #ffaf2d;
+    font-size: 18px;
+    font-weight: normal;
+	font-style: normal;
+    margin-top: 16px;
+    &::after {
+        content: ">";
+        padding-left: 8px;
+    }
+}
+
+.brands {
+    margin: 0;
+    padding: 15px 0;
+    background-color: #fff;
+    list-style-type: none;
+    box-sizing: border-box;
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 100px;
+}
+
+.brand {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #efeeee;
+}
+
+.brand:last-child {
+    border: none;
+}
+
+.brand__all {
+    font-size: 18px;
+    color: #232323;
+    text-decoration: none;
 }
