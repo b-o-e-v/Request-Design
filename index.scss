@@ -38,6 +38,20 @@
     justify-content: space-between;
 }
 
+.nav__item {
+    position: relative;
+}
+
+.nav__band {
+    width: 1px;
+    height: 28px;
+    border: none;
+    position: absolute;
+    top: -12px;
+    right: -23px;
+    background-color: #40bf79;
+}
+
 .nav__link {
     text-decoration: none;
     color: #fff;
