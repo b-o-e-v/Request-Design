@@ -13,26 +13,26 @@
 <body class="root">
     <div class="page">
         <header class="header">
-            <section class="navigation">
+            <section class="navigation display-none">
                 <div class="navigation__container">
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item"><a href="#" class="nav__link hover">Компания</a></li>
                             <li class="nav__item"><a href="#" class="nav__link hover">Портфолио</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link hover">Проектирование</a><hr class="nav__band"></li>
+                            <li class="nav__item"><a href="#" class="nav__link hover">Проектирование</a><hr class="nav__band display-none"></li>
                             <li class="nav__item"><a href="#" class="nav__link hover">Ресторанам</a></li>
                             <li class="nav__item"><a href="#" class="nav__link hover">Застройщикам</a></li>
                             <li class="nav__item"><a href="#" class="nav__link hover">Гос.заказчикам</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link hover">Таблет-питание</a><hr class="nav__band"></li>
+                            <li class="nav__item"><a href="#" class="nav__link hover">Таблет-питание</a><hr class="nav__band display-none"></li>
                             <li class="nav__item"><a href="#" class="nav__link hover">Сервис</a></li>
                             <li class="nav__item"><a href="#" class="nav__link hover">Контакты</a></li>
                         </ul>
                     </nav>
-                    <div class="contacts">
+                    <div class="contacts display-none">
                         <div class="contacts__img contacts__img_type_email"></div>
                         <p class="contacts__description">info@stolovay.ru</p>
                     </div>
-                    <div class="contacts">
+                    <div class="contacts display-none">
                         <div class="contacts__img contacts__img_type_telephone"></div>
                         <p class="contacts__description">8 495 790-72-05</p>
                     </div>
@@ -40,27 +40,37 @@
             </section>
             <section class="search">
                 <div class="search__container">
+                    <button class="search__menu hover"></button>
                     <div class="search__part">
                         <a class="logo hover" href="#">
                             <div class="logo__img"></div>
-                            <p class="logo__text">Столовая.РУ</p>
+                            <div class="logo__text">
+                                <p class="logo__name">Столовая.РУ</p>
+                                <p class="logo__remark">Создание пищеблоков</p>    
+                            </div>
                         </a>
-                        <form action="" class="form" method="GET">
-                            <button type="button" class="form__all">Все</button>
+                        <form action="" class="form display-none" method="GET">
+                            <button type="button" class="form__all hover">Все</button>
                             <input type="text" name="search" class="form__input">
-                            <button type="submit" class="form__search"></button>
+                            <button type="submit" class="form__search hover"></button>
                         </form>    
                     </div>
-                    <div class="supplier">
+                    <div class="supplier display-none">
                         <div class="supplier__img"></div>
                         <p class="supplier__text">Мы на портале поставщиков</p>
+                    </div>
+                    <div class="search-mobile">
+                        <a href="#" class="search-mobile__link hover"></a>
+                    </div>
+                    <div class="contacts-mobile">
+                        <a href="#" class="contacts-mobile__link hover"></a>
                     </div>
                     <div class="basket">
                         <a href="#" class="basket-link hover">
                             <div class="basket__img">
                                 <p class="basket__product-quantity">12</p>
                             </div>
-                            <div class="basket__text">
+                            <div class="basket__text display-none">
                                 <p class="basket__sum">Сумма</p>
                                 <p class="basket__number">150 000 руб.</p>
                             </div>
@@ -69,7 +79,8 @@
                 </div>
             </section>
             <section class="equipments">
-                <ul class="equipments__container">
+                <h2 class="equipments__title">Оборудование</h2>
+                <ul class="equipments__container display-none">
                     <li class="equipment">
                         <a href="#" class="equipment__link hover">
                             <img src="./images/equipment/equipment1.png" alt="Тепловое" class="equipment__img">
@@ -141,7 +152,7 @@
         </header>
         <main class="main">
             <section class="description">
-                <div class="description__offers">
+                <div class="description__offers display-none">
                     <h2 class="description__title">Целевые предложения</h2>
                     <nav class="description__nav">
                         <ul class="description__list">
@@ -182,10 +193,12 @@
                         </li>
                     </ul>
                     <nav class="swiper__nav">
-                        <button type="button" class="swiper__btn"></button>
-                        <button type="button" class="swiper__btn swiper__btn_on"></button>
-                        <button type="button" class="swiper__btn"></button>
-                        <button type="button" class="swiper__btn"></button>
+                        <button type="button" class="swiper__arrow swiper__arrow_position_left hover"></button>
+                        <button type="button" class="swiper__btn hover"></button>
+                        <button type="button" class="swiper__btn swiper__btn_on hover"></button>
+                        <button type="button" class="swiper__btn hover"></button>
+                        <button type="button" class="swiper__btn hover"></button>
+                        <button type="button" class="swiper__arrow swiper__arrow_position_right hover"></button>
                     </nav>
                 </div>
                 <div class="sale">
@@ -214,7 +227,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="news">
+            <section class="news display-none">
                 <h2 class="news__titile">Новости производителей</h2>
                 <ul class="news__cards">
                     <li class="news__card news__card_main">
@@ -298,14 +311,14 @@
                     </ul>
             </section>
             <section class="decisions">
-                <div>
+                <div class="decisions__one">
                     <h2 class="decisions__title">Комплексные решения оснащения столовых и кафе</h2>
                     <p class="decisions__paragraph">Компания предлагает комплексное оснащение столовых, ресторанов, кафе и баров в Москве. Наши услуги построены по принципу полного цикла обслуживания предприятий общепита и бизнеса HoReCa.</p>
                     <p class="decisions__paragraph">Иными словами, мы предлагаем проектирование «под ключ» и постгарантийное обслуживание. </p>
                     <p class="decisions__paragraph">География работы компании охватывает всю страну. При этом в каждом регионе мы готовы предложить демократичные цены на профессиональное технологическое оборудование для столовой и оптимальные 
                         решения с точки зрения эффективности бизнеса, приемлемым уровнем производительности в условиях ограниченного бюджета.</p>
-                    <h2 class="decisions__title decisions__title_margin_top">Что мы предлагаем</h2>
-                    <ul class="decisions__list">
+                    <h2 class="decisions__title decisions__title_margin_top display-none">Что мы предлагаем</h2>
+                    <ul class="decisions__list display-none">
                         <li>разработку технологического проекта кухни и производственной линии, дизайна ресторанного интерьера;</li>
                         <li>составление меню согласно концепции и оснащения бара (кафе, столовой);</li>
                         <li>подбор посуды, текстиля под общий стиль; профессиональное оборудование для кафе, бара и ресторана, большой выбор современных моделей; доставку в любой регион РФ;</li>
@@ -313,7 +326,7 @@
                         <li>экспертную поддержку бизнеса;</li>
                     </ul>
                 </div>
-                <div>
+                <div class="decisions__two">
                     <div class="decisions__logo">
                         <div class="decisions__img"></div>
                         <h2 class="decisions__title decisions__title_type_logo">Столовая.РУ</h2>
@@ -335,7 +348,7 @@
                 <div class="footer-navigation__container">
                     <div class="footer-navigation__column">
                         <h3 class="footer-navigation__title">Информация</h3>
-                        <ul class="footer-navigation__list">
+                        <ul class="footer-navigation__list display-none">
                             <li><a href="#" class="footer-navigation__link hover">Компания</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Портфолио</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Проектирование</a></li>
@@ -350,7 +363,7 @@
                     </div>
                     <div class="footer-navigation__column">
                         <h3 class="footer-navigation__title">Оборудование</h3>
-                        <ul class="footer-navigation__list">
+                        <ul class="footer-navigation__list display-none">
                             <li><a href="#" class="footer-navigation__link hover">Тепловое</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Холодильное</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Электромеханическое</a></li>
@@ -366,7 +379,7 @@
                     </div>
                     <div class="footer-navigation__column">
                         <h3 class="footer-navigation__title">Предложения</h3>
-                        <ul class="footer-navigation__list">
+                        <ul class="footer-navigation__list display-none">
                             <li><a href="#" class="footer-navigation__link hover">Кафе, барам, ресторанам</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Дестким садам и школам</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Таблет-питание</a></li>
@@ -379,7 +392,7 @@
                     </div>
                     <div class="footer-navigation__column">
                         <h3 class="footer-navigation__title">Контакты</h3>
-                        <ul class="footer-navigation__list">
+                        <ul class="footer-navigation__list display-none">
                             <li class="footer-navigation__item">
                                 <p class="footer-navigation__paragraph">8 495 150-31-71</p> 
                                 <p class="footer-navigation__paragraph">8 800 500 43 44</p>
