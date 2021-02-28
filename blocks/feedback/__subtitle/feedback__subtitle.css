@@ -1,0 +1,14 @@
+.feedback__subtitle {
+    font-size: 1.25vw;
+    color: #121212;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .feedback__subtitle {
+      font-size: 3.91134289439vw;
+      text-align: center;
+    }
+}
+  

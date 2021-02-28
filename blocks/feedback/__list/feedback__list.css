@@ -1,0 +1,12 @@
+.feedback__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+    .feedback__list {
+      text-align: center;
+    }
+}
+  

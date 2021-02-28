@@ -1,0 +1,18 @@
+.contact-form__feedback {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40vw;
+        grid-template-columns: 40vw;
+    gap: 2vw;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-form__feedback {
+      -ms-grid-columns: 92.1773142112vw;
+          grid-template-columns: 92.1773142112vw;
+      gap: 4vw;
+    }
+}

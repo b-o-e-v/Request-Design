@@ -1,0 +1,56 @@
+.contact-form__field_type_text {
+    resize: vertical;
+    min-height: 8vw;
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+    outline: none;
+    font-family: 'Myriad Pro', Helvetica, sans-serif;
+}
+  
+.contact-form__field_type_text::-webkit-input-placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+    font-family: 'Myriad Pro', Helvetica, sans-serif;
+}
+  
+.contact-form__field_type_text:-ms-input-placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+    font-family: 'Myriad Pro', Helvetica, sans-serif;
+}
+  
+.contact-form__field_type_text::-ms-input-placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+    font-family: 'Myriad Pro', Helvetica, sans-serif;
+}
+  
+.contact-form__field_type_text::placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+    font-family: 'Myriad Pro', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-form__field_type_text {
+      min-height: 20vw;
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field_type_text::-webkit-input-placeholder {
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field_type_text:-ms-input-placeholder {
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field_type_text::-ms-input-placeholder {
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field_type_text::placeholder {
+      font-size: 3.51134289439vw;
+    }
+}

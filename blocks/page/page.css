@@ -3,6 +3,6 @@
             box-sizing: border-box;
     width: 100vw;
     margin: 0 auto;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro', Helvetica, sans-serif;
     color: #000;
 }

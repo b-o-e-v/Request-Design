@@ -1,0 +1,14 @@
+.feedback__iframe-maps {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .feedback__iframe-maps {
+      height: 100vw;
+      border-radius: 5vw;
+    }
+}
+  

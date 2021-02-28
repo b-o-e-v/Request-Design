@@ -1,0 +1,59 @@
+.contact-form__field {
+    padding: 1.5vw 2vw;
+    border: none;
+    border-radius: 3vw;
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+    outline: none;
+}
+  
+.contact-form__field::-webkit-input-placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+}
+  
+.contact-form__field:-ms-input-placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+}
+  
+.contact-form__field::-ms-input-placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+}
+  
+.contact-form__field::placeholder {
+    font-size: 1.20vw;
+    color: #121212;
+    font-style: normal;
+}
+  
+.contact-form__field:focus {
+    border: 0.2vw solid #ffaf2d;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-form__field {
+      padding: 5vw 8vw;
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field::-webkit-input-placeholder {
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field:-ms-input-placeholder {
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field::-ms-input-placeholder {
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field::placeholder {
+      font-size: 3.51134289439vw;
+    }
+    .contact-form__field:focus {
+      border: 0.5vw solid #ffaf2d;
+    }
+}

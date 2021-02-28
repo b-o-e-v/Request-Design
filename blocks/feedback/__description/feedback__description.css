@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+    .feedback__description {
+        margin-bottom: 7vw;
+        align-self: center;
+    }
+}
+
+  
