@@ -1,0 +1,16 @@
+.decisions__img {
+    width: 7.8125vw;
+    height: 7.8125vw;
+    background-image: url(../../../images/logo.png);
+    background-size: 100% 100%;
+    margin-bottom: 1.354166vw;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions__img {
+      width: 32.5945241199vw;
+      height: 32.5945241199vw;
+      margin-bottom: 7.82268578879vw;
+    }
+}
+  

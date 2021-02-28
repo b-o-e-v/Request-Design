@@ -1,0 +1,14 @@
+.slide-two__paragraph {
+    margin: 0 0 3.75vw;
+    color: #777;
+    font-size: 0.83333vw;
+}
+
+@media screen and (max-width: 767px) {
+    .slide-two__paragraph {
+      font-size: 3.25945241199vw;
+      margin-bottom: 6.51890482399vw;
+      font-weight: 300;
+    }
+}  
+  

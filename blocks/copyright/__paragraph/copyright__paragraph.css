@@ -1,0 +1,13 @@
+.copyright__paragraph {
+    margin: 0;
+    font-size: 0.9375vw;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright__paragraph {
+      font-size: 5.21512385919vw;
+      margin-top: 3.91134289439vw;
+    }
+}
+  

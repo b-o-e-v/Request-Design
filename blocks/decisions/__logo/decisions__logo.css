@@ -1,0 +1,9 @@
+.decisions__logo {
+    margin-top: 2.76041667vw;
+}
+  
+@media screen and (max-width: 767px) {
+    .decisions__logo {
+        margin: 0;
+    }
+}

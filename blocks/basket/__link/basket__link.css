@@ -1,0 +1,11 @@
+.basket__link {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    gap: 0.520833vw;
+    position: relative;
+    top: 0.26041667vw;
+    text-decoration: none;
+}
+  

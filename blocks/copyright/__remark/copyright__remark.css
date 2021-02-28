@@ -1,0 +1,13 @@
+.copyright__remark {
+    margin: 0;
+    font-size: 0.83333vw;
+    font-weight: 300;
+    color: #787878;
+}
+  
+@media screen and (max-width: 767px) {
+    .copyright__remark {
+      font-size: 3.91134289439vw;
+      line-height: 0.8;
+    }
+}

@@ -1,0 +1,5 @@
+.logo__text {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+  

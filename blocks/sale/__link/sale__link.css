@@ -1,0 +1,26 @@
+.sale__link {
+    display: block;
+    text-decoration: none;
+    color: #ffaf2d;
+    font-size: 0.9375vw;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0.83333vw;
+}
+  
+.sale__link::after {
+    content: ">";
+    padding-left: 0.416666vw;
+}
+
+@media screen and (max-width: 767px) {
+    .sale__link {
+      font-size: 3.91134289439vw;
+      font-weight: 300;
+      margin-top: 4.56323337679vw;
+    }
+    .sale__link::after {
+      margin-left: 1.9556714472vw;
+    }
+}  
+  

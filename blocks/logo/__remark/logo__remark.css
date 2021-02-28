@@ -1,0 +1,13 @@
+.logo__remark {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .logo__remark {
+      display: block;
+      color: #777;
+      font-size: 2.34680573664vw;
+      font-weight: 300;
+      margin: 0;
+    }
+}  

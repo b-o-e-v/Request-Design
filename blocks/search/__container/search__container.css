@@ -1,0 +1,26 @@
+.search__container {
+    width: 80.5729167vw;
+    min-height: 3.3333vw;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+@media screen and (max-width: 767px) {
+    .search__container {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 92.1773142112vw;
+      min-height: 13.037809648vw;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: end;
+      padding: 1.9556714472vw 0;
+    }
+}  

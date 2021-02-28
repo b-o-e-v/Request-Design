@@ -1,0 +1,10 @@
+.footer-navigation__column_device_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-navigation__column_device_mobile {
+      display: block;
+    }
+}  
+  

@@ -1,0 +1,17 @@
+.copyright__img {
+    width: 2.083333vw;
+    height: 2.083333vw;
+    background-image: url(../../../images/logo.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-right: 0.78125vw;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright__img {
+      width: 11.7340286832vw;
+      height: 11.7340286832vw;
+      margin-right: 2.6075619296vw;
+    }
+}
+  

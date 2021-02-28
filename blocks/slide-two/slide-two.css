@@ -1,0 +1,18 @@
+.slide-two {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 100%;
+    background-image: url(../../images/swiper.jpg);
+    background-size: 100% 100%;
+    padding: 3.07291667vw 3.48958333vw;
+}
+
+@media screen and (max-width: 767px) {
+    .slide-two {
+        background-size: auto 100%;
+        background-position: -29vw -3vw;
+        padding: 11.0821382008vw 3.91134289439vw 0;
+    }
+}
+
+  

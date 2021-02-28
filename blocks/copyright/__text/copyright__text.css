@@ -1,0 +1,12 @@
+.copyright__text {
+    margin: 0;
+    font-size: 1.25vw;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright__text {
+      font-size: 6.51890482399vw;
+    }
+}
+  

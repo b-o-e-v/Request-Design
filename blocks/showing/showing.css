@@ -1,0 +1,6 @@
+.showing {
+    -webkit-transition: 1s;
+    transition: 1s;
+    z-index: 1;
+}
+  

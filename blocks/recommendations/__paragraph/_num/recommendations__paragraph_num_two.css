@@ -1,0 +1,10 @@
+.recommendations__paragraph_num_two {
+    width: 22.916666vw;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__paragraph_num_two {
+      width: 50.8474576271vw;
+    }
+}  
+  

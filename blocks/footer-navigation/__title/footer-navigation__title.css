@@ -1,0 +1,23 @@
+.footer-navigation__title {
+    font-weight: 300;
+    margin: 0 0 1.04166vw;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-navigation__title {
+      line-height: 2.70;
+      font-size: 3.91134289439vw;
+      margin-bottom: 0;
+      color: #fff;
+      border-bottom: 0.13037809648vw solid #4b4b4b;
+      cursor: pointer;
+    }
+    .footer-navigation__title:last-child {
+      border-bottom: none;
+    }
+    .footer-navigation__title::after {
+      content: "+";
+      float: right;
+    }
+}
+  

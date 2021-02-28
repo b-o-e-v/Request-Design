@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+    .decisions__two {
+        margin: 0 6.51890482399vw;
+        -ms-grid-row: 1;
+        grid-row: 1;
+    }
+}

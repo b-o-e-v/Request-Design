@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+    .swiper__arrow_position_right {
+      right: -37.4185136897vw;
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+    }
+}  

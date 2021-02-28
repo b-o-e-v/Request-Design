@@ -1,0 +1,30 @@
+.decisions__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: #fff;
+    width: 2.60416667vw;
+    height: 2.60416667vw;
+    border-radius: 50%;
+    background-color: #232323;
+    margin-top: 2.60416667vw;
+    font-size: 1.25vw;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions__link {
+      width: 13.037809648vw;
+      height: 13.037809648vw;
+      font-size: 6.51890482399vw;
+      margin-top: 11.7340286832vw;
+    }
+}
+  

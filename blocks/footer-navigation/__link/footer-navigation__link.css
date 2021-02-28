@@ -1,0 +1,15 @@
+.footer-navigation__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.83333vw;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-navigation__link {
+      font-size: 3.25945241199vw;
+      line-height: 2.50;
+    }
+}
+  

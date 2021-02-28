@@ -1,0 +1,14 @@
+.recommendations__cards_num_three {
+    background-image: url(../../../../images/recommendations/recommendations3.png);
+    background-size: 100% 100%;
+    padding-top: 4.42708333vw;
+    padding-left: 2.8645833vw;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__cards_num_three {
+      background-image: url(../../../../images/recommendations/mobile/recommendations3-mobile.png);
+      padding: 17.9921773142vw 0 0 8.47457627119vw;
+    }
+}  
+  

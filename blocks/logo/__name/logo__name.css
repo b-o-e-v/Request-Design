@@ -1,0 +1,13 @@
+.logo__name {
+    font-size: 1.71875vw;
+    line-height: 0.9;
+    color: #000;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .logo__name {
+      font-size: 3.91134289439vw;
+    }
+}  
+  

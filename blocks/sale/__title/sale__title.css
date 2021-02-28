@@ -1,0 +1,13 @@
+.sale__title {
+    margin: 0;
+    font-size: 2.083333vw;
+    color: #121212;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+@media screen and (max-width: 767px) {
+    .sale__title {
+      font-size: 6.51890482399vw;
+    }
+}  

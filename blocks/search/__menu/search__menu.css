@@ -1,0 +1,18 @@
+.search__menu {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .search__menu {
+      display: block;
+      background-color: transparent;
+      width: 9.12646675359vw;
+      height: 9.12646675359vw;
+      border: none;
+      background-image: url(../../../images/menu.png);
+      background-size: 100% 100%;
+      cursor: pointer;
+      outline: none;
+    }
+}  
+  

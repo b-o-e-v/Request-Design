@@ -1,0 +1,16 @@
+.slide-two__subtitle {
+    margin: 1.19791667vw 0 0;
+    font-size: 0.9375vw;
+    font-weight: normal;
+    font-style: normal;
+    color: #f3f1f1;
+}
+
+@media screen and (max-width: 767px) {
+    .slide-two__subtitle {
+      font-size: 3.25945241199vw;
+      margin-top: 3.52020860495vw;
+      font-weight: 300;
+    }
+}  
+  

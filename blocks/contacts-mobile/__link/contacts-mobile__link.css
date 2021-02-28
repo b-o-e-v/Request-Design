@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .contacts-mobile__link {
+      display: block;
+      width: 6.12777053455vw;
+      height: 7.56192959583vw;
+      background-image: url(../../../images/telephone-green.png);
+      background-size: 100% 100%;
+      margin-top: 1.17340286832vw;
+      margin-right: 4.56323337679vw;
+    }
+}  

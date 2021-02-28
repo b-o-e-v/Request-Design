@@ -1,0 +1,18 @@
+.recommendations__paragraph {
+    margin: 0 auto 3.38541667vw;
+    width: 31.770833vw;
+    text-align: center;
+    font-size: 0.83333vw;
+    color: #787878;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__paragraph {
+      margin: 0 auto 9.77835723598vw;
+      width: 84.7457627119vw;
+      font-size: 3.91134289439vw;
+    }
+}  
+  

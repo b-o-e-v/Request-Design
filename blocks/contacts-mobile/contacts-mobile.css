@@ -1,0 +1,10 @@
+.contacts-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .contacts-mobile {
+        display: block;
+    }
+}
+  

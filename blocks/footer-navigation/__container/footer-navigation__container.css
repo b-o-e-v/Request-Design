@@ -1,0 +1,26 @@
+.footer-navigation__container {
+    width: 73.6979167vw;
+    padding: 4.6875vw 0 3.645833vw;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 1.25vw;
+    color: #777;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-navigation__container {
+      width: 88.2659713168vw;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 10.4302477184vw 0 9.12646675359vw;
+    }
+}
+  

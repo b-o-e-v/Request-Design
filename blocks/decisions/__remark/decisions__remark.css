@@ -1,0 +1,14 @@
+.decisions__remark {
+    margin: 0 0 1.5625vw;
+    font-size: 0.83333vw;
+    color: #777;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions__remark {
+      font-size: 3.91134289439vw;
+      margin-bottom: 7.82268578879vw;
+    }
+}

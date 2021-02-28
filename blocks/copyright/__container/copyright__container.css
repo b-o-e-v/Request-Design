@@ -1,0 +1,26 @@
+.copyright__container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 73.6979167vw;
+    margin: 0 auto;
+    padding: 1.82291667vw 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-height: 5.729166vw;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright__container {
+      width: 88.2659713168vw;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 5.21512385919vw 0;
+    }
+}
+  

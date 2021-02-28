@@ -1,0 +1,15 @@
+.recommendations__name {
+    margin: 0 0 0.520833vw;
+    color: #121212;
+    font-size: 1.04166vw;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+}
+  
+@media screen and (max-width: 767px) {
+    .recommendations__name {
+        font-size: 3.91134289439vw;
+        margin-bottom: 2.21642764016vw;
+    }
+}

@@ -1,0 +1,8 @@
+.contacts__img_type_telephone {
+    width: 0.83333vw;
+    height: 1.04166vw;
+    background-image: url(../../../../images/telephone.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+  

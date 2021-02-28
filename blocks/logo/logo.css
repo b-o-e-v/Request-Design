@@ -1,0 +1,16 @@
+.logo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    gap: 0.3645833vw;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        padding-top: 1.3037809648vw;
+        padding-left: 3.91134289439vw;
+        gap: 1.3037809648vw;
+    }
+}    

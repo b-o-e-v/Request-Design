@@ -1,0 +1,22 @@
+.description {
+    width: 80.208333vw;
+    margin: 0 auto;
+    padding-top: 1.04166vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 3fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
+    gap: 1.04166vw;
+}
+
+@media screen and (max-width: 767px) {
+    .description {
+        padding: 0;
+        width: 100vw;
+        -ms-grid-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 72.3598435463vw 61.9295958279vw auto;
+            grid-template-rows: 72.3598435463vw 61.9295958279vw auto;
+        gap: 3.25945241199vw;
+    }
+}

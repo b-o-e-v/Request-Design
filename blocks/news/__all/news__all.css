@@ -1,0 +1,13 @@
+.news__all {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    width: 8.69791667vw;
+    text-decoration: none;
+    color: #121212;
+    font-size: 0.83333vw;
+    padding: 0.30052083vw 1.82291667vw;
+    border: 0.10416667vw solid #121212;
+    border-radius: 0.9375vw;
+}
+  

@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .search-mobile__link {
+      display: block;
+      width: 6.51890482399vw;
+      height: 7.43155149935vw;
+      background-image: url(../../../images/search-green.png);
+      background-size: 100% 100%;
+      margin-top: 1.17340286832vw;
+      margin-right: 5.47588005215vw;
+    }
+}  

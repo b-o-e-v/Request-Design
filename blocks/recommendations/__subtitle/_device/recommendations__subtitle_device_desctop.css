@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .recommendations__subtitle_device_desctop {
+      display: none;
+    }
+}  

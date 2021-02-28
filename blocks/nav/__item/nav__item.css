@@ -1,0 +1,10 @@
+.nav__item {
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .nav__item {
+      width: 100%;
+    }
+}  
+  

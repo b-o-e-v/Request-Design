@@ -1,0 +1,13 @@
+.equipments {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.26041667vw 0.78125vw #e0dddd;
+            box-shadow: 0 0.26041667vw 0.78125vw #e0dddd;
+}
+
+@media screen and (max-width: 767px) {
+    .equipments {
+        background-color: #f1f1f1;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+}

@@ -1,0 +1,16 @@
+.description__link {
+    display: block;
+    padding: 0.598958vw 1.04166vw 0.598958vw 1.40625vw;
+    border-bottom: 0.0520833vw solid #eee;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.83333vw;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.description__link::after {
+    content: ">";
+    color: #cdcdcd;
+    float: right;
+}

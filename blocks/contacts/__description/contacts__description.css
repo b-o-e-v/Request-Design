@@ -1,0 +1,6 @@
+.contacts__description {
+    margin: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+  

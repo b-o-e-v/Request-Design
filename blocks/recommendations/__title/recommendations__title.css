@@ -1,0 +1,16 @@
+.recommendations__title {
+    margin: 0 auto 1.04166vw;
+    text-align: center;
+    color: #121212;
+    font-size: 2.083333vw;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__title {
+      margin: 19.556714472vw auto 3.91134289439vw;
+      font-size: 6.51890482399vw;
+    }
+}  
+  

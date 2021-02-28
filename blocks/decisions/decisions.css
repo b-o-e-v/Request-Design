@@ -1,0 +1,20 @@
+.decisions {
+    width: 73.6979167vw;
+    margin: 0 auto 8.333333vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2.6fr 1fr;
+        grid-template-columns: 2.6fr 1fr;
+    gap: 0 11.9791667vw;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions {
+        width: 92.1773142112vw;
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+        margin-bottom: 19.556714472vw;
+    }    
+}
+
+  

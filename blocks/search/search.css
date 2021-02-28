@@ -1,0 +1,12 @@
+.search {
+    background-color: #e8e7e7;
+}
+
+@media screen and (max-width: 767px) {
+    .search {
+      -ms-grid-row: 1;
+      grid-row: 1;
+      background-color: #f1f1f1;
+      border-bottom: 0.26075619296vw solid #e7e7e7;
+    }
+}  

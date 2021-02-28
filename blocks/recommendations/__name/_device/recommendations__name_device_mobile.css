@@ -1,0 +1,10 @@
+.recommendations__name_device_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__name_device_mobile {
+      display: block;
+    }
+}  
+  

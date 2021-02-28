@@ -1,0 +1,17 @@
+.equipment__name {
+    margin: 0;
+    font-size: 0.83333vw;
+    font-weight: normal;
+    font-style: normal;
+    color: #343434;
+    padding-top: 0.416666vw;
+}
+
+@media screen and (max-width: 767px) {
+    .equipment__name {
+      font-size: 3.91134289439vw;
+      line-height: 2;
+      padding-left: 3.91134289439vw;
+    }
+}  
+  

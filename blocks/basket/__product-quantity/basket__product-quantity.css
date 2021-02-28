@@ -1,0 +1,17 @@
+.basket__product-quantity {
+    font-size: 0.729166vw;
+    margin: 0;
+    color: #ff8c00;
+    position: relative;
+    bottom: 0.625vw;
+    left: 0.416666vw;
+}
+
+@media screen and (max-width: 767px) {
+    .basket__product-quantity {
+      font-size: 3.29204693611vw;
+      bottom: 2.6075619296vw;
+      left: 2.6075619296vw;
+    }
+}  
+  

@@ -1,0 +1,14 @@
+.decisions__title {
+    margin: 0 0 1.04166vw;
+    color: #121212;
+    font-size: 2.083333vw;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions__title {
+      font-size: 6.51890482399vw;
+      margin-bottom: 7.82268578879vw;
+    }
+}

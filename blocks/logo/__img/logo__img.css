@@ -1,0 +1,15 @@
+.logo__img {
+    width: 2.083333vw;
+    height: 2.083333vw;
+    background-image: url(../../../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .logo__img {
+      width: 7.17079530639vw;
+      height: 7.17079530639vw;
+    }
+}
+  

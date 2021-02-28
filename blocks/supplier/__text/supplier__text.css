@@ -1,0 +1,7 @@
+.supplier__text {
+    margin: 0;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+}
+  

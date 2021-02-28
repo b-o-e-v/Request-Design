@@ -1,0 +1,24 @@
+.slide-two__link {
+    display: block;
+    width: 6.770833vw;
+    padding: 0.4427083vw 0;
+    margin: 3.229166vw 0 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9375vw;
+    background-color: #ffaf2d;
+    text-align: center;
+    border-radius: 1.04166vw;
+}
+
+@media screen and (max-width: 767px) {
+    .slide-two__link {
+      width: 28.0312907432vw;
+      margin-top: 4.82398956975vw;
+      font-size: 3.91134289439vw;
+      font-weight: 300;
+      border-radius: 3.91134289439vw;
+      padding: 1.04302477184vw;
+    }
+}  
+  

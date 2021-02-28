@@ -1,0 +1,16 @@
+.recommendations__subtitle {
+    margin: 0 0 1.5625vw;
+    color: #121212;
+    font-size: 1.5625vw;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__subtitle {
+        font-size: 5.21512385919vw;
+        margin-bottom: 3.91134289439vw;
+    }
+}
+
+  

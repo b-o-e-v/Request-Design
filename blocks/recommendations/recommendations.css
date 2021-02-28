@@ -1,0 +1,14 @@
+.recommendations {
+    width: 73.6979167vw;
+    margin: 0 auto;
+    padding-bottom: 8.333333vw;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations {
+        width: 100vw;
+        margin: 0 0 19.556714472vw;
+    }
+}
+
+  

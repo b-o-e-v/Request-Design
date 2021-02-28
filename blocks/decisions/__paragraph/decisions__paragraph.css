@@ -1,0 +1,13 @@
+.decisions__paragraph {
+    margin: 0;
+    font-size: 0.9375vw;
+    color: #121212;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions__paragraph {
+      font-size: 3.91134289439vw;
+    }
+}

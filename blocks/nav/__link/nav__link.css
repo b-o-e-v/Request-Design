@@ -1,0 +1,19 @@
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.83333vw;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .nav__link {
+      font-size: 3.91134289439vw;
+      line-height: 2;
+    }
+    .nav__link::after {
+      content: ">";
+      float: right;
+    }
+}  
+  

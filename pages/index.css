@@ -1,2 +1,177 @@
 /* БЛОКИ И ШРИФТЫ */
 @import url(../fonts/MyriadPro/stylesheet.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/search/search.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/supplier/supplier.css);
+@import url(../blocks/search-mobile/search-mobile.css);
+@import url(../blocks/contacts-mobile/contacts-mobile.css);
+@import url(../blocks/equipments/equipments.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/slides/slides.css);
+@import url(../blocks/slide/slide.css);
+@import url(../blocks/slide-one/slide-one.css);
+@import url(../blocks/slide-two/slide-two.css);
+@import url(../blocks/slide-three/slide-three.css);
+@import url(../blocks/slide-four/slide-four.css);
+@import url(../blocks/sale/sale.css);
+@import url(../blocks/brands/brands.css);
+@import url(../blocks/brand/brand.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/recommendations/recommendations.css);
+@import url(../blocks/decisions/decisions.css);
+@import url(../blocks/footer-navigation/footer-navigation.css);
+@import url(../blocks/copyright/copyright.css);
+@import url(../blocks/header/header.css);
+
+/* ЭЛЕМЕНТЫ */
+    /* navigation */
+@import url(../blocks/navigation/__container/navigation__container.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__band/nav__band.css);
+    /* contacts */
+@import url(../blocks/contacts/__img/contacts__img.css);
+@import url(../blocks/contacts/__description/contacts__description.css);
+    /* contacts-mobile */
+@import url(../blocks/contacts-mobile/__link/contacts-mobile__link.css);
+    /* search */
+@import url(../blocks/search/__container/search__container.css);
+@import url(../blocks/search/__menu/search__menu.css);
+@import url(../blocks/search/__part/search__part.css);
+    /* search-mobile */
+@import url(../blocks/search-mobile/__link/search-mobile__link.css);
+    /* logo */
+@import url(../blocks/logo/__img/logo__img.css);
+@import url(../blocks/logo/__name/logo__name.css);
+@import url(../blocks/logo/__remark/logo__remark.css);
+@import url(../blocks/logo/__text/logo__text.css);
+    /* form */
+@import url(../blocks/form/__all/form__all.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__search/form__search.css);
+    /* supplier */
+@import url(../blocks/supplier/__img/supplier__img.css);
+@import url(../blocks/supplier/__text/supplier__text.css);
+    /* basket */
+@import url(../blocks/basket/__img/basket__img.css);
+@import url(../blocks/basket/__link/basket__link.css);
+@import url(../blocks/basket/__number/basket__number.css);
+@import url(../blocks/basket/__product-quantity/basket__product-quantity.css);
+@import url(../blocks/basket/__sum/basket__sum.css);
+    /* equipments */
+@import url(../blocks/equipments/__title/equipments__title.css);
+@import url(../blocks/equipments/__container/equipments__container.css);
+@import url(../blocks/equipment/__img/equipment__img.css);
+@import url(../blocks/equipment/__link/equipment__link.css);
+@import url(../blocks/equipment/__name/equipment__name.css);
+    /* description */
+@import url(../blocks/description/__link/description__link.css);
+@import url(../blocks/description/__list/description__list.css);
+@import url(../blocks/description/__offers/description__offers.css);
+@import url(../blocks/description/__title/description__title.css);
+    /* slide-two */
+@import url(../blocks/slide-two/__title/slide-two__title.css);
+@import url(../blocks/slide-two/__subtitle/slide-two__subtitle.css);
+@import url(../blocks/slide-two/__paragraph/slide-two__paragraph.css);
+@import url(../blocks/slide-two/__link/slide-two__link.css);
+     /* swiper */
+@import url(../blocks/swiper/__btn/swiper__btn.css);
+@import url(../blocks/swiper/__nav/swiper__nav.css);
+@import url(../blocks/swiper/__arrow/swiper__arrow.css);
+    /* sale */
+@import url(../blocks/sale/__title/sale__title.css);
+@import url(../blocks/sale/__paragraph/sale__paragraph.css);
+@import url(../blocks/sale/__link/sale__link.css);
+    /* brand */
+@import url(../blocks/brand/__img/brand__img.css);
+@import url(../blocks/brand/__link/brand__link.css);
+@import url(../blocks/brand/__all/brand__all.css);
+    /* news */
+@import url(../blocks/news/__abat/news__abat.css);
+@import url(../blocks/news/__titile/news__titile.css);
+@import url(../blocks/news/__subtitile/news__subtitile.css);
+@import url(../blocks/news/__time/news__time.css);
+@import url(../blocks/news/__paragraph/news__paragraph.css);
+@import url(../blocks/news/__img/news__img.css);
+@import url(../blocks/news/__footer/news__footer.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__cards/news__cards.css);
+@import url(../blocks/news/__all/news__all.css);
+    /* recommendations */
+@import url(../blocks/recommendations/__title/recommendations__title.css);
+@import url(../blocks/recommendations/__subtitle/recommendations__subtitle.css);
+@import url(../blocks/recommendations/__paragraph/recommendations__paragraph.css);
+@import url(../blocks/recommendations/__name/recommendations__name.css);
+@import url(../blocks/recommendations/__link/recommendations__link.css);
+@import url(../blocks/recommendations/__cards/recommendations__cards.css);
+    /* decisions */
+@import url(../blocks/decisions/__img/decisions__img.css);
+@import url(../blocks/decisions/__link/decisions__link.css);
+@import url(../blocks/decisions/__list/decisions__list.css);
+@import url(../blocks/decisions/__logo/decisions__logo.css);
+@import url(../blocks/decisions/__paragraph/decisions__paragraph.css);
+@import url(../blocks/decisions/__remark/decisions__remark.css);
+@import url(../blocks/decisions/__subtitle/decisions__subtitle.css);
+@import url(../blocks/decisions/__title/decisions__title.css);
+@import url(../blocks/decisions/__two/decisions__two.css);
+    /* footer-navigation */
+@import url(../blocks/footer-navigation/__container/footer-navigation__container.css);
+@import url(../blocks/footer-navigation/__item/footer-navigation__item.css);
+@import url(../blocks/footer-navigation/__link/footer-navigation__link.css);
+@import url(../blocks/footer-navigation/__list/footer-navigation__list.css);
+@import url(../blocks/footer-navigation/__paragraph/footer-navigation__paragraph.css);
+@import url(../blocks/footer-navigation/__title/footer-navigation__title.css);
+    /* copyright */
+@import url(../blocks/copyright/__container/copyright__container.css);
+@import url(../blocks/copyright/__img/copyright__img.css);
+@import url(../blocks/copyright/__logo/copyright__logo.css);
+@import url(../blocks/copyright/__paragraph/copyright__paragraph.css);
+@import url(../blocks/copyright/__remark/copyright__remark.css);
+@import url(../blocks/copyright/__text/copyright__text.css);
+
+/* МОДИФИКАТОРЫ */
+    /* contacts */
+@import url(../blocks/contacts/__img/_type/contacts__img_type_email.css);
+@import url(../blocks/contacts/__img/_type/contacts__img_type_telephone.css);
+    /* swiper */
+@import url(../blocks/swiper/__btn/_on/swiper__btn_on.css);
+@import url(../blocks/swiper/__arrow/_position/swiper__arrow_position_left.css);
+@import url(../blocks/swiper/__arrow/_position/swiper__arrow_position_right.css);
+    /* news */
+@import url(../blocks/news/__card/_main/news__card_main.css);
+@import url(../blocks/news/__img/_main/news__img_main.css);
+    /* recommendations */
+@import url(../blocks/recommendations/_color/recommendations_color_white.css);
+@import url(../blocks/recommendations/__cards/_num/recommendations__cards_num_one.css);
+@import url(../blocks/recommendations/__cards/_num/recommendations__cards_num_two.css);
+@import url(../blocks/recommendations/__cards/_num/recommendations__cards_num_three.css);
+@import url(../blocks/recommendations/__name/_device/recommendations__name_device_desctop.css);
+@import url(../blocks/recommendations/__name/_device/recommendations__name_device_mobile.css);
+@import url(../blocks/recommendations/__subtitle/_num/recommendations__subtitle_num_two.css);
+@import url(../blocks/recommendations/__subtitle/_device/recommendations__subtitle_device_desctop.css);
+@import url(../blocks/recommendations/__subtitle/_device/recommendations__subtitle_device_mobile.css);
+@import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_one.css);
+@import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_three.css);
+@import url(../blocks/recommendations/__paragraph/_in/recommendations__paragraph_in_card.css);
+@import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_two.css);
+@import url(../blocks/recommendations/__paragraph/_device/recommendations__paragraph_device_desctop.css);
+@import url(../blocks/recommendations/__paragraph/_device/recommendations__paragraph_device_mobile.css);
+    /* decisions */
+@import url(../blocks/decisions/__title/_margin/decisions__title_margin_top.css);
+@import url(../blocks/decisions/__title/_type/decisions__title_type_logo.css);
+    /* footer-navigation */
+@import url(../blocks/footer-navigation/__column/_device/footer-navigation__column_device_mobile.css);
+
+/* ОБЩИЕ БЛОКИ */
+@import url(../blocks/showing/showing.css);
+@import url(../blocks/display-none/display-none.css);
+@import url(../blocks/hover/hover.css);
+    /* hover */
+@import url(../blocks/hover/_device/hover_device_mobile:hover.css);

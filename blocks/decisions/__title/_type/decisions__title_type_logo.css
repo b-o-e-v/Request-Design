@@ -1,0 +1,11 @@
+.decisions__title_type_logo {
+    margin: 0;
+    line-height: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions__title_type_logo {
+      margin-bottom: 0;
+    }
+}  
+  

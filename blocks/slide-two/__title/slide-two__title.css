@@ -1,0 +1,16 @@
+.slide-two__title {
+    margin: 0;
+    font-size: 2.083333vw;
+    font-weight: normal;
+    font-style: normal;
+    color: #f3f1f1;
+}
+
+@media screen and (max-width: 767px) {
+    .slide-two__title {
+      width: 52.1512385919vw;
+      font-size: 5.21512385919vw;
+      font-weight: 300;
+    }
+}  
+  

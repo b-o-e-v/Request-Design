@@ -1,0 +1,15 @@
+.footer-navigation__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: #fff;
+    font-size: 0.83333vw;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-navigation__list {
+      padding: 6.51890482399vw 0;
+    }
+}
+  

@@ -1,0 +1,9 @@
+.recommendations__paragraph_device_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__paragraph_device_mobile {
+      display: block;
+    }
+}

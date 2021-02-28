@@ -1,0 +1,12 @@
+.brand__img {
+    width: 7.5520833vw;
+    height: 2.083333vw;
+}
+
+@media screen and (max-width: 767px) {
+    .brand__img {
+      width: 27.3794002608vw;
+      height: 7.82268578879vw;
+    }
+}  
+  

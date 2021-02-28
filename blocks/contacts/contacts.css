@@ -1,0 +1,7 @@
+.contacts {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    gap: 0.26041667vw;
+}

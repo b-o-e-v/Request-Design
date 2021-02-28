@@ -1,0 +1,19 @@
+.form__search {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 2.55208333vw;
+    height: 1.82291667vw;
+    border: none;
+    background-color: #ffaf2d;
+    border-top-right-radius: 0.26041667vw;
+    border-bottom-right-radius: 0.26041667vw;
+    outline: none;
+    cursor: pointer;
+    background-image: url(../../../images/search.png);
+    background-size: 1.09375vw 1.09375vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  

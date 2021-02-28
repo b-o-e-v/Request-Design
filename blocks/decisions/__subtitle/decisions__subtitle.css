@@ -1,0 +1,14 @@
+.decisions__subtitle {
+    margin: 0;
+    font-size: 1.25vw;
+    color: #171717;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .decisions__subtitle {
+      font-size: 5.21512385919vw;
+    }
+}
+  

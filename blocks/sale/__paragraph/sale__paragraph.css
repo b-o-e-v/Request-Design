@@ -1,0 +1,15 @@
+.sale__paragraph {
+    margin: 0;
+    font-size: 0.9375vw;
+    color: #121212;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .sale__paragraph {
+      font-size: 3.25945241199vw;
+      font-weight: 300;
+    }
+}  
+  

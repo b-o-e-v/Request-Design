@@ -1,0 +1,17 @@
+.swiper__btn {
+    padding: 0;
+    width: 0.520833vw;
+    height: 0.520833vw;
+    border-radius: 50%;
+    border: 0.0520833vw solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}  
+
+@media screen and (max-width: 767px) {
+    .swiper__btn {
+      width: 1.9556714472vw;
+      height: 1.9556714472vw;
+    }
+}  

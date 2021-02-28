@@ -1,0 +1,24 @@
+.recommendations__cards {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.31fr;
+        grid-template-columns: 1fr 1.31fr;
+    -ms-grid-rows: 21.8229167vw 16.40625vw;
+        grid-template-rows: 21.8229167vw 16.40625vw;
+    gap: 0.520833vw;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__cards {
+      -ms-grid-columns: 1fr;
+          grid-template-columns: 1fr;
+      -ms-grid-rows: 62.58149vw 62.58149vw 62.58149vw;
+          grid-template-rows: repeat(3, 62.58149vw);
+      gap: 1.3037809648vw 0;
+      margin: 0 3.25945241199vw;
+    }
+}  
+  

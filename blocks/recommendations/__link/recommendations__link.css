@@ -1,0 +1,25 @@
+.recommendations__link {
+    display: block;
+    margin-top: 1.19791667vw;
+    text-decoration: none;
+    font-size: 0.83333vw;
+    color: #787878;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.recommendations__link::after {
+    content: ">";
+    padding-left: 0.416666vw;
+}
+
+@media screen and (max-width: 767px) {
+    .recommendations__link {
+        font-size: 3.25945241199vw;
+    }
+    .recommendations__link::after {
+        margin-left: 0.91264667535vw;
+    }
+}
+
+  

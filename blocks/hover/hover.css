@@ -1,0 +1,5 @@
+.hover:hover {
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    opacity: 0.6;
+}

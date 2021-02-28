@@ -1,0 +1,29 @@
+.navigation__container {
+    width: 80.5729167vw;
+    min-height: 2.5vw;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    font-size: 0.83333vw;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .navigation__container {
+      width: 92.1773142112vw;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+}  
+  

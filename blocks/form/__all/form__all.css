@@ -1,0 +1,31 @@
+.form__all {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 3.38541667vw;
+    height: 1.82291667vw;
+    border: none;
+    background-color: #f1f1f1;
+    color: #777777;
+    font-size: 0.83333vw;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    padding: 0 0.3125vw 0 0.78125vw;
+    border-top-left-radius: 0.26041667vw;
+    border-bottom-left-radius: 0.26041667vw;
+    position: relative;
+}
+  
+.form__all::after {
+    display: block;
+    content: "";
+    background-color: #393939;
+    width: 0.520833vw;
+    height: 0.3125vw;
+    position: absolute;
+    top: 0.78125vw;
+    right: 0.3645833vw;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+  

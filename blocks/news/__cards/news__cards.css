@@ -1,0 +1,11 @@
+.news__cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.675fr;
+        grid-template-columns: 1fr 1.675fr;
+    gap: 0.208333vw 5.46875vw;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+  
