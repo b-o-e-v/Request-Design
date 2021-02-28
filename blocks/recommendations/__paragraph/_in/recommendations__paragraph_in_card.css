@@ -5,8 +5,6 @@
 
 @media screen and (max-width: 767px) {
     .recommendations__paragraph_in_card {
-      margin: 0 0 4.56323337679vw;
-      width: 43.0247718383vw;
       font-size: 3.25945241199vw;
     }
 }  

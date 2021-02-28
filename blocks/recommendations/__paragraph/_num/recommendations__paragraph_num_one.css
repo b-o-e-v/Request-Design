@@ -2,4 +2,13 @@
     width: 15.625vw;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+    .recommendations__paragraph_num_one {
+        margin: 0 0 4.56323337679vw;
+        width: 43.0247718383vw;
+        font-size: 3.25945241199vw;
+    }
+}  
+
   

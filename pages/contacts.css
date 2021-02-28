@@ -1,0 +1,87 @@
+/* БЛОКИ И ШРИФТЫ */
+@import url(../fonts/MyriadPro/stylesheet.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/search/search.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/supplier/supplier.css);
+@import url(../blocks/search-mobile/search-mobile.css);
+@import url(../blocks/contacts-mobile/contacts-mobile.css);
+@import url(../blocks/equipments/equipments.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/footer-navigation/footer-navigation.css);
+@import url(../blocks/copyright/copyright.css);
+
+/* ЭЛЕМЕНТЫ */
+    /* navigation */
+@import url(../blocks/navigation/__container/navigation__container.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__band/nav__band.css);
+    /* contacts */
+@import url(../blocks/contacts/__img/contacts__img.css);
+@import url(../blocks/contacts/__description/contacts__description.css);
+    /* contacts-mobile */
+@import url(../blocks/contacts-mobile/__link/contacts-mobile__link.css);
+    /* search */
+@import url(../blocks/search/__container/search__container.css);
+@import url(../blocks/search/__menu/search__menu.css);
+@import url(../blocks/search/__part/search__part.css);
+    /* search-mobile */
+@import url(../blocks/search-mobile/__link/search-mobile__link.css);
+    /* logo */
+@import url(../blocks/logo/__img/logo__img.css);
+@import url(../blocks/logo/__name/logo__name.css);
+@import url(../blocks/logo/__remark/logo__remark.css);
+@import url(../blocks/logo/__text/logo__text.css);
+    /* form */
+@import url(../blocks/form/__all/form__all.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__search/form__search.css);
+    /* supplier */
+@import url(../blocks/supplier/__img/supplier__img.css);
+@import url(../blocks/supplier/__text/supplier__text.css);
+    /* basket */
+@import url(../blocks/basket/__img/basket__img.css);
+@import url(../blocks/basket/__link/basket__link.css);
+@import url(../blocks/basket/__number/basket__number.css);
+@import url(../blocks/basket/__product-quantity/basket__product-quantity.css);
+@import url(../blocks/basket/__sum/basket__sum.css);
+    /* equipments */
+@import url(../blocks/equipments/__title/equipments__title.css);
+@import url(../blocks/equipments/__container/equipments__container.css);
+@import url(../blocks/equipment/__img/equipment__img.css);
+@import url(../blocks/equipment/__link/equipment__link.css);
+@import url(../blocks/equipment/__name/equipment__name.css);
+    /* footer-navigation */
+@import url(../blocks/footer-navigation/__container/footer-navigation__container.css);
+@import url(../blocks/footer-navigation/__item/footer-navigation__item.css);
+@import url(../blocks/footer-navigation/__link/footer-navigation__link.css);
+@import url(../blocks/footer-navigation/__list/footer-navigation__list.css);
+@import url(../blocks/footer-navigation/__paragraph/footer-navigation__paragraph.css);
+@import url(../blocks/footer-navigation/__title/footer-navigation__title.css);
+    /* copyright */
+@import url(../blocks/copyright/__container/copyright__container.css);
+@import url(../blocks/copyright/__img/copyright__img.css);
+@import url(../blocks/copyright/__logo/copyright__logo.css);
+@import url(../blocks/copyright/__paragraph/copyright__paragraph.css);
+@import url(../blocks/copyright/__remark/copyright__remark.css);
+@import url(../blocks/copyright/__text/copyright__text.css);
+    
+    
+/* МОДИФИКАТОРЫ */
+    /* contacts */
+@import url(../blocks/contacts/__img/_type/contacts__img_type_email.css);
+@import url(../blocks/contacts/__img/_type/contacts__img_type_telephone.css);
+    /* footer-navigation */
+@import url(../blocks/footer-navigation/__column/_device/footer-navigation__column_device_mobile.css);
+    
+/* ОБЩИЕ БЛОКИ */
+@import url(../blocks/display-none/display-none.css);
+@import url(../blocks/hover/hover.css);
+    /* hover */
+@import url(../blocks/hover/_device/hover_device_mobile:hover.css);

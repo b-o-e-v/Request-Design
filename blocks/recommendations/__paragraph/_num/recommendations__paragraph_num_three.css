@@ -1,4 +1,13 @@
 .recommendations__paragraph_num_three {
     width: 21.3541667vw;
 }
+
+@media screen and (max-width: 767px) {
+    .recommendations__paragraph_num_three {
+        margin: 0 0 4.56323337679vw;
+        width: 43.0247718383vw;
+        font-size: 3.25945241199vw;
+    }
+}  
+
   

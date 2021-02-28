@@ -157,10 +157,10 @@
 @import url(../blocks/recommendations/__subtitle/_num/recommendations__subtitle_num_two.css);
 @import url(../blocks/recommendations/__subtitle/_device/recommendations__subtitle_device_desctop.css);
 @import url(../blocks/recommendations/__subtitle/_device/recommendations__subtitle_device_mobile.css);
-@import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_one.css);
-@import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_three.css);
 @import url(../blocks/recommendations/__paragraph/_in/recommendations__paragraph_in_card.css);
+@import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_one.css);
 @import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_two.css);
+@import url(../blocks/recommendations/__paragraph/_num/recommendations__paragraph_num_three.css);
 @import url(../blocks/recommendations/__paragraph/_device/recommendations__paragraph_device_desctop.css);
 @import url(../blocks/recommendations/__paragraph/_device/recommendations__paragraph_device_mobile.css);
     /* decisions */
