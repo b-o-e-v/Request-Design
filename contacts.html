@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./pages/contacts.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Cтоловая.РУ</title>
 </head>
 <body class="root">
@@ -149,9 +150,48 @@
                 </ul>
             </section>
         </header>
-        <main>
-            <section></section>
-            <section></section>
+        <main class="main">
+            <section class="location">
+                <div class="feedback">
+                    <h2 class="title">Контакты</h2>
+                </div>
+                <div class="feedback__main">
+                    <div class="feedback__maps">
+                        <iframe src="https://yandex.ru/map-widget/v1/-/CCUQmIsdXA" class="feedback__iframe-maps"></iframe>
+                    </div>
+                    <div class="feedback__description">
+                        <h2 class="feedback__subtitle">Наш адрес:</h2>
+                        <ul class="feedback__list">
+                            <li class="feedback__item">111524, Москва, Рязанский проспект 24к2</li>
+                        </ul>
+                        <h2 class="feedback__subtitle">Часы работы:</h2>
+                        <ul class="feedback__list">
+                            <li class="feedback__item">Пн-Пт</li>
+                            <li class="feedback__item">09:00 до 18:00</li>
+                        </ul>
+                        <h2 class="feedback__subtitle">Email:</h2>
+                        <ul class="feedback__list">
+                            <li class="feedback__item">com@stolovay.ru</li>
+                            <li class="feedback__item">info@stolovay.ru</li>
+                        </ul>
+                        <h2 class="feedback__subtitle">Телефоны:</h2>
+                        <ul class="feedback__list">
+                            <li class="feedback__item">8 495 150-31-71</li>
+                            <li class="feedback__item">8 800 500 43 44</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-form">
+                <h2 class="title">Обратная связь</h2>
+                <form name="feedback" method="POST" class="contact-form__feedback">
+                    <input type="text" name="name" class="contact-form__field" placeholder="Имя" required>
+                    <input type="text" name="telephon" class="contact-form__field" placeholder="Телефон" required>
+                    <input type="email" name="email" class="contact-form__field" placeholder="E-mail" required>
+                    <textarea name="text" class="contact-form__field contact-form__field_type_text" placeholder="Cообщение" required></textarea>
+                    <button type="submit" class="contact-form__btn hover">OK</button>
+                </form>
+            </section>
         </main>
         <footer class="footer">
             <section class="footer-navigation">
@@ -168,7 +208,7 @@
                             <li><a href="#" class="footer-navigation__link hover">Таблет-питание</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Сервис</a></li>
                             <li><a href="#" class="footer-navigation__link hover">Новости</a></li>
-                            <li><a href="#" class="footer-navigation__link hover">Контакты</a></li>
+                            <li><a href="./contacts.html" class="footer-navigation__link hover">Контакты</a></li>
                         </ul>
                     </div>
                     <div class="footer-navigation__column">
