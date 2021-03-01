@@ -1,4 +1,10 @@
 .footer-navigation__item {
     margin-bottom: 1.04166vw;
 }
-  
+
+@media screen and (max-width: 767px) {
+    .footer-navigation__item {
+        font-size: 3.25945241199vw;
+        line-height: 2.50;  
+    }
+}  
